@@ -1,0 +1,20 @@
+# Unturned Server Manager
+
+Simple script for running an unturned server and using symlinks to sync player data across worlds.
+
+## Requirements
+ - linux or osx
+ - unturned
+
+## Usage
+```
+usage: unturned_server.py [-h] server_path server_name
+
+positional arguments:
+  server_path  The path to your unturned installation (probably
+               <somewhere>/steamapps/common/Unturned)
+  server_name  The server name (found in .../Unturned/Servers/<THIS>)
+
+optional arguments:
+  -h, --help   show this help message and exit
+```
